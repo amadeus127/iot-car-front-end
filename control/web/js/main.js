@@ -11,7 +11,7 @@ function callApi(estatus) {
   // "http://18.132.200.102/iot-car-control/back-end/apis/setRegistro.php?valorEstatus=" + estatus
   axios
     .get(
-       "https://18.175.46.144/iot-car-control/back-end/apis/setRegistro.php?valorEstatus=" + estatus
+       "https://18.130.221.12/iot-car-control/back-end/apis/setRegistro.php?valorEstatus=" + estatus
     )
     .then(function (response) {
       // manejar respuesta exitosa
